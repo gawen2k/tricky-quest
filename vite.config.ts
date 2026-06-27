@@ -11,9 +11,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg"],
       manifest: {
-        name: "Tricky Quest",
-        short_name: "Tricky",
-        description: "두뇌를 비트는 함정 퍼즐",
+        name: "game001",
+        short_name: "game001",
+        description: "머리를 쓰는 찾기·퍼즐 게임 (가제)",
         theme_color: "#0f1226",
         background_color: "#0f1226",
         display: "standalone",

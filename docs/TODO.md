@@ -12,8 +12,8 @@
 
 ## 진행 중
 
-- [~] tricky-quest-mvp — 코어 빌드/구동 완료, 후속(브라우저 검증·이미지 실생성) 남음
-  → [plans/0001-tricky-quest-mvp.md](plans/0001-tricky-quest-mvp.md)
+- [~] game001-mvp — 기술 골격(트릭 프로토타입) 완료, 장면 기반 찾기·퍼즐로 전환 단계
+  → [plans/0001-game001-mvp.md](plans/0001-game001-mvp.md)
 
 ## 완료
 

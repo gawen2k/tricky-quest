@@ -5,4 +5,4 @@
 
 | id | 제목 | status | plan |
 |---|---|---|---|
-| tricky-quest-mvp | Tricky Quest — 웹 우선 PWA 두뇌 퍼즐 MVP | in_progress | [0001-tricky-quest-mvp.md](plans/0001-tricky-quest-mvp.md) |
+| game001-mvp | game001 — 웹 우선 PWA 찾기·퍼즐 게임 MVP | in_progress | [0001-game001-mvp.md](plans/0001-game001-mvp.md) |

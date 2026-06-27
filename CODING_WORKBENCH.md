@@ -7,7 +7,7 @@
 
 | id | 제목 | status | 경로 |
 |---|---|---|---|
-| tricky-quest-mvp | Tricky Quest — 웹 우선 PWA 두뇌 퍼즐 MVP | in_progress | [docs/plans/0001-tricky-quest-mvp.md](docs/plans/0001-tricky-quest-mvp.md) |
+| game001-mvp | game001 — 웹 우선 PWA 찾기·퍼즐 게임 MVP | in_progress | [docs/plans/0001-game001-mvp.md](docs/plans/0001-game001-mvp.md) |
 
 격리 규칙: applied → `docs/plans/done/`, superseded/cancelled → `docs/plans/superseded/`.
 
@@ -39,7 +39,7 @@
 
 | 자산 | 역할 | 비고 |
 |---|---|---|
-| `.github/workflows/pages.yml` | main 푸시 시 Vite 빌드 → GitHub Pages 배포 | 라이브: https://gawen2k.github.io/tricky-quest/ · repo: gawen2k/tricky-quest (public) |
+| `.github/workflows/pages.yml` | main 푸시 시 Vite 빌드 → GitHub Pages 배포 | 라이브: https://gawen2k.github.io/game001/ · repo: gawen2k/game001 (public) |
 | `claude-rc-game001.service` (systemd --user, 호스트) | claude.ai 앱 Remote Control 서버 (`--name game001`, cwd `/home/ubuntu/game001`, `--spawn same-dir`) | 유닛은 repo 밖(`~/.config/systemd/user/`). 절차 → [docs/runbooks/remote-control-setup.md](docs/runbooks/remote-control-setup.md) |
 
 ## Runbooks

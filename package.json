@@ -1,9 +1,9 @@
 {
-  "name": "game001-tricky-quest",
+  "name": "game001",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Tricky Quest — 웹 우선 PWA 두뇌 함정 퍼즐 게임",
+  "description": "game001 — 웹 우선 PWA 찾기·퍼즐 게임 (가제)",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

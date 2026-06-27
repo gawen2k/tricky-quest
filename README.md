@@ -1,8 +1,9 @@
-# game001 — Tricky Quest
+# game001 (가제)
 
-머리를 비트는 **함정 퍼즐**(brain puzzle / tricky quest) 게임. 웹 우선 + PWA로 모바일/웹 브라우저 양쪽에서 플레이.
+머리를 쓰는 **찾기·퍼즐** 게임. 2D 일러스트 장면에서 오브젝트를 탭·드래그해 상황을 해결한다.
+웹 우선 + PWA로 모바일/웹 브라우저 양쪽에서 플레이. *(정식 게임명 미정 — game001 가제 사용)*
 
-▶ **플레이: https://gawen2k.github.io/tricky-quest/** (모바일은 공유→"홈 화면에 추가"로 앱처럼 설치)
+▶ **플레이: https://gawen2k.github.io/game001/** (모바일은 공유→"홈 화면에 추가"로 앱처럼 설치)
 
 - 스택: Vite + React + TypeScript, `vite-plugin-pwa` (홈 화면 설치/오프라인), 진행도는 localStorage.
 - 구조: 레벨 1개 = `src/levels/` 컴포넌트 1개. `src/engine/levels.ts` 배열 순서가 진행 순서.

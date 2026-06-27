@@ -1,7 +1,7 @@
 // 진행도 영속화 — localStorage. 외부 의존 없음.
 import type { Progress } from "./types";
 
-const KEY = "tricky-quest:progress:v1";
+const KEY = "game001:progress:v1";
 
 const EMPTY: Progress = { cleared: [], current: 0, hintsUsed: 0 };
 
