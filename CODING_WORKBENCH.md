@@ -33,7 +33,13 @@
 
 | 자산 | 역할 | 비고 |
 |---|---|---|
-| *(없음)* | | |
+| `claude-rc-game001.service` (systemd --user, 호스트) | claude.ai 앱 Remote Control 서버 (`--name game001`, cwd `/home/ubuntu/game001`, `--spawn same-dir`) | 유닛은 repo 밖(`~/.config/systemd/user/`). 절차 → [docs/runbooks/remote-control-setup.md](docs/runbooks/remote-control-setup.md) |
+
+## Runbooks
+
+| 런북 | 다루는 범위 | 경로 |
+|---|---|---|
+| Remote Control 추가 | 새 프로젝트를 앱 목록에 추가 (systemd 유닛 + trust) | [docs/runbooks/remote-control-setup.md](docs/runbooks/remote-control-setup.md) |
 
 ## 외부 의존 / 자격증명
 
