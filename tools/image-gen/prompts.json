@@ -1,0 +1,20 @@
+{
+  "model": "black-forest-labs/flux-schnell",
+  "defaults": { "width": 1024, "height": 1024, "num_outputs": 1 },
+  "jobs": [
+    {
+      "id": "bg-forest-dawn",
+      "kind": "landscape",
+      "prompt": "lush fantasy forest at dawn, soft volumetric light, painterly game background, wide vista, no text",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "char-sage-owl",
+      "kind": "character",
+      "prompt": "wise cartoon owl mascot wearing tiny glasses, friendly, clean vector-style game character on transparent-like flat background, centered",
+      "width": 768,
+      "height": 768
+    }
+  ]
+}

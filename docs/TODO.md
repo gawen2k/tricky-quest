@@ -5,14 +5,17 @@
 
 ## 진행 예정
 
-- [ ] 게임 프로젝트 목적·범위 확정 (CLAUDE.md 「목적」 채우기)
-- [ ] 기술 스택 결정 (엔진/언어)
-- [ ] AI 이미지 생성 파이프라인 설계 — 외부 API(Replicate 등) 래퍼 + claude -p 반복 루프
+- [ ] 브라우저 인터랙션 수동 검증 (`/verify` 또는 `/run`)
+- [ ] Replicate 토큰 실투입 1라운드 이미지 생성 → `assets/` 연결
+- [ ] 트릭 레벨 추가 (목표 12~15개) — 난이도 곡선 설계
+- [ ] CLAUDE.md 「목적」 섹션 정본화 (게임 정체성 확정 시)
 
 ## 진행 중
 
-*(없음)*
+- [~] tricky-quest-mvp — 코어 빌드/구동 완료, 후속(브라우저 검증·이미지 실생성) 남음
+  → [plans/0001-tricky-quest-mvp.md](plans/0001-tricky-quest-mvp.md)
 
 ## 완료
 
-*(없음)*
+- [x] 기술 스택 결정 — 웹 우선 + PWA (Vite+React+TS) [2026-06-27]
+- [x] AI 이미지 파이프라인 설계·구현 — `tools/image-gen` + spec image-pipeline [2026-06-27]
