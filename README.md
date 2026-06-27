@@ -2,6 +2,8 @@
 
 머리를 비트는 **함정 퍼즐**(brain puzzle / tricky quest) 게임. 웹 우선 + PWA로 모바일/웹 브라우저 양쪽에서 플레이.
 
+▶ **플레이: https://gawen2k.github.io/tricky-quest/** (모바일은 공유→"홈 화면에 추가"로 앱처럼 설치)
+
 - 스택: Vite + React + TypeScript, `vite-plugin-pwa` (홈 화면 설치/오프라인), 진행도는 localStorage.
 - 구조: 레벨 1개 = `src/levels/` 컴포넌트 1개. `src/engine/levels.ts` 배열 순서가 진행 순서.
 - AI 이미지 생성 파이프라인(풍경·캐릭터 원화): `tools/image-gen/` — spec [docs/spec/image-pipeline.md](docs/spec/image-pipeline.md).

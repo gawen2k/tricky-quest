@@ -39,6 +39,7 @@
 
 | 자산 | 역할 | 비고 |
 |---|---|---|
+| `.github/workflows/pages.yml` | main 푸시 시 Vite 빌드 → GitHub Pages 배포 | 라이브: https://gawen2k.github.io/tricky-quest/ · repo: gawen2k/tricky-quest (public) |
 | `claude-rc-game001.service` (systemd --user, 호스트) | claude.ai 앱 Remote Control 서버 (`--name game001`, cwd `/home/ubuntu/game001`, `--spawn same-dir`) | 유닛은 repo 밖(`~/.config/systemd/user/`). 절차 → [docs/runbooks/remote-control-setup.md](docs/runbooks/remote-control-setup.md) |
 
 ## Runbooks
