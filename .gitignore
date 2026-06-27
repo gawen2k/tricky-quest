@@ -1,0 +1,45 @@
+# --- Claude / 머신-로컬 설정 ---
+.claude/
+.mcp.json
+
+# --- 자격증명 (절대 커밋 금지) ---
+.env
+.env.*
+!.env.example
+keys/
+*.pem
+*credentials*.json
+
+# --- 에디터 / OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- 로그 / 런타임 산출물 ---
+*.log
+logs/
+state/*.err
+
+# --- 일회성 scratch (git 미추적) ---
+scratch/
+
+# --- 생성 산출물: AI 이미지 (대용량, git 미추적) ---
+# 생성된 풍경·캐릭터 원화 파일. 메타(프롬프트·seed·파라미터) JSON 은 추적 권장.
+out/
+assets/generated/
+
+# --- 언어/스택별 (확정 후 정리) ---
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+# Node
+node_modules/
+dist/
+build/
